@@ -1,0 +1,31 @@
+header {
+  background-color: rgb(73, 190, 183);
+}
+
+nav {
+  background-color: rgb(208, 2, 27);
+}
+
+.main-header {
+  display: flex;
+/*
+SPACE AROUND
+*|-----|**|-----|**|-----|*
+*|     |**|-----|**|-----|*
+*|     |**|-----|**|-----|*
+*|-----|**|-----|**|-----|*
+- Each item have the same equal space around them (1 left, 1 space right), so will have 2 spaces.
+- The fist item and the last one are going to have 
+*/
+  justify-content: space-around;
+  padding: 20px;
+  margin: 5px 0px;
+}
+
+header input {
+  width: 300px;
+}
+
+nav > ul {
+  padding-left: 0px;
+}
